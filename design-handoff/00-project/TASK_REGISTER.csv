@@ -79,7 +79,7 @@ task_id,task_name,dependency,input,output,status,reviewer,evidence_path,complete
 "01.02","Inspect mockup quality","01.01","Output of 01.01","design-handoff/01-reference/TASK_01.02_QUALITY_AUDIT.md","DONE","AI","GitHub commit 689082c16a1162f24d5412d149a474c08241c940",""
 "01.03","Split composite mockups","01.02","Output of 01.02","design-handoff/01-reference/TASK_01.03_SPLIT_REPORT.md","DONE","AI","GitHub commit 03f184a842344a5796ebf990fb2bfe1361202b90; ZIP conversation artifact",""
 "01.04","Assign screen IDs","01.03","Output of 01.03","design-handoff/01-reference/SCREEN_ID_REGISTRY.csv","DONE","AI","GitHub commit a16a24fe7e932941dce1609ccaaae46cecb3ff5b",""
-"01.05","Generate reference checksums","01.04","Output of 01.04","design-handoff/01-reference/01.05.artifact","TODO","AI","",""
+"01.05","Generate reference checksums","01.04","Output of 01.04","design-handoff/01-reference/REFERENCE_CHECKSUMS.csv","DONE","AI","GitHub commit 947979a2c606d45234f995d3bb3a7a92dab7a245",""
 "01.06","Analyze source viewport","01.05","Output of 01.05","design-handoff/01-reference/01.06.artifact","TODO","AI","",""
 "01.07","Specify safe areas","01.06","Output of 01.06","design-handoff/01-reference/01.07.artifact","TODO","AI","",""
 "01.08","Lock reference baseline","01.07","Output of 01.07","design-handoff/01-reference/01.08.artifact","TODO","AI","",""
