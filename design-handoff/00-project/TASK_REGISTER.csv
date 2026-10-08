@@ -5,7 +5,7 @@ task_id,task_name,dependency,input,output,status,reviewer,evidence_path,complete
 "00.04","Create decision log","00.03","Output of 00.03","design-handoff/00-project/DECISION_LOG.md","DONE","AI","GitHub commit 70ca55aa9611d81b7083b90e8593ffad51010c51",""
 "00.05","Create issue register","00.04","Output of 00.04","design-handoff/00-project/ISSUE_REGISTER.csv","DONE","AI","GitHub commit 6f9f5ce9306228700cfd3b289e631bec91413c99",""
 "00.06","Create design rules","00.05","Output of 00.05","design-handoff/00-project/DESIGN_RULES.md","DONE","AI","GitHub commit d096e2ec6c8824ad706950d31c05ac719f655002",""
-"00.07","Create definition of done","00.06","Output of 00.06","design-handoff/00-project/DEFINITION_OF_DONE.md","TODO","AI","",""
+"00.07","Create definition of done","00.06","Output of 00.06","design-handoff/00-project/DEFINITION_OF_DONE.md","DONE","AI","GitHub commit 91065c31e3c80610b22d8f0b8a99f53042bef38d",""
 "00.08","Create versioning policy","00.07","Output of 00.07","design-handoff/00-project/VERSIONING.md","TODO","AI","",""
 "10.01","Inventory interactive elements","07.44","Output of 07.44","design-handoff/06-interactions/10.01.artifact","TODO","AI","",""
 "10.02","Map navigation destinations","10.01","Output of 10.01","design-handoff/06-interactions/10.02.artifact","TODO","AI","",""
