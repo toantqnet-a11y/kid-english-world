@@ -75,7 +75,7 @@ task_id,task_name,dependency,input,output,status,reviewer,evidence_path,complete
 "13.18","Package release","13.17","Output of 13.17","design-handoff/10-reports/13.18.artifact","TODO","AI","",""
 "13.19","Verify packaged release","13.18","Output of 13.18","design-handoff/10-reports/13.19.artifact","TODO","AI","",""
 "13.20","Approve release","13.19","Output of 13.19","design-handoff/10-reports/13.20.artifact","TODO","Owner","",""
-"01.01","Count source mockups","00.08","Output of 00.08","design-handoff/01-reference/TASK_01.01_SOURCE_AUDIT.md","BLOCKED","AI","GitHub commit 34996bde10647c1b9916f257c2a64599f4b65951",""
+"01.01","Count source mockups","00.08","Output of 00.08","design-handoff/01-reference/TASK_01.01_SOURCE_AUDIT.md","DONE","AI","GitHub commit f327f16843eefdedbf48ecd5f5241794dea949f7",""
 "01.02","Inspect mockup quality","01.01","Output of 01.01","design-handoff/01-reference/01.02.artifact","TODO","AI","",""
 "01.03","Split composite mockups","01.02","Output of 01.02","design-handoff/01-reference/01.03.artifact","TODO","AI","",""
 "01.04","Assign screen IDs","01.03","Output of 01.03","design-handoff/01-reference/01.04.artifact","TODO","AI","",""
