@@ -3,7 +3,7 @@ task_id,task_name,dependency,input,output,status,reviewer,evidence_path,complete
 "00.02","Create handoff directories","00.01","Output of 00.01","design-handoff/{00-project..10-reports}/.gitkeep","DONE","AI","GitHub commit history",""
 "00.03","Create master task register","00.02","Output of 00.02","design-handoff/00-project/TASK_REGISTER.csv","DONE","AI","GitHub commit 00402d9aa8c8cc4c3e1387f845d7ef0c67860fd0",""
 "00.04","Create decision log","00.03","Output of 00.03","design-handoff/00-project/DECISION_LOG.md","DONE","AI","GitHub commit 70ca55aa9611d81b7083b90e8593ffad51010c51",""
-"00.05","Create issue register","00.04","Output of 00.04","design-handoff/00-project/ISSUE_REGISTER.csv","TODO","AI","",""
+"00.05","Create issue register","00.04","Output of 00.04","design-handoff/00-project/ISSUE_REGISTER.csv","DONE","AI","GitHub commit 6f9f5ce9306228700cfd3b289e631bec91413c99",""
 "00.06","Create design rules","00.05","Output of 00.05","design-handoff/00-project/DESIGN_RULES.md","TODO","AI","",""
 "00.07","Create definition of done","00.06","Output of 00.06","design-handoff/00-project/DEFINITION_OF_DONE.md","TODO","AI","",""
 "00.08","Create versioning policy","00.07","Output of 00.07","design-handoff/00-project/VERSIONING.md","TODO","AI","",""
