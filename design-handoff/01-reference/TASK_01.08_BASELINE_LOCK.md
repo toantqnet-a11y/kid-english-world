@@ -45,3 +45,12 @@
 ## Status conclusion
 
 Owner has approved Option A, but this document is **not a completed baseline lock**: image binaries are still absent from GitHub and not verified in durable repository storage. Do not mark 01.08 `DONE` until publication and integrity gates are satisfied. Task register status: `BLOCKED`.
+
+
+## Verification update — 2026-10-08
+
+- Verified **all 22 files** directly from the mounted original JPEGs and the previously generated ZIP using SHA-256, byte lengths, and Pillow dimensions against `REFERENCE_CHECKSUMS.csv`: **22/22 PASS, 0 mismatches**.
+- Verified source crop ZIP has **13 PNGs + manifest.json**.
+- Packaged **9 original JPEGs + 13 cropped PNGs + manifest + checksum CSV** into the conversation artifact `KEW_REFERENCE_BASELINE_A_APPROVED.zip` (8,355,872 bytes), for owner download and durable storage.
+- Tested container Git network access: `git ls-remote` failed because `github.com` cannot be resolved in the container. Available GitHub connector binary API accepts base64 text but has no supported local-file-to-connector bridge for these images. **No image binaries were committed to GitHub.**
+- Option A approval remains valid; **baseline lock remains BLOCKED** only on durable source image publication and repository integrity verification. The bundled ZIP itself is **not** a GitHub baseline lock.
