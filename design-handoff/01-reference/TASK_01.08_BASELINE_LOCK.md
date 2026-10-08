@@ -1,7 +1,8 @@
 # TASK 01.08 — Reference Baseline Lock Gate
 
-**Status: NEEDS_REVIEW — NOT LOCKED**  
-**Proposed baseline ID:** KEW-REF-v1.0.0-rc1  
+**Status: BLOCKED — OWNER APPROVED OPTION A; BINARY PUBLICATION PENDING**  
+**Approved reference choice:** Option A — use the existing SRC-03 composite and its 13 extracted crops, accepting current resolution limitations (owner's explicit reply: `A`).  
+**Candidate baseline ID:** KEW-REF-v1.0.0-rc1 (not yet locked)  
 **Owner:** Product owner (parent)  
 **Scope:** 13 canonical Child App screens S01–S13, plus eight supplementary reference JPEGs.
 
@@ -28,8 +29,8 @@
 
 ## Blocking gates for declaring LOCKED / DONE
 
-- [ ] Owner explicitly approves this baseline version and reference hierarchy, with evidence.
-- [ ] Owner resolves D-0002: accepts low-resolution collage crops as the canonical working reference **or** supplies approved individual high-resolution images.
+- [x] Owner approves Option A, the existing SRC-03 composite and extracted panels, as the reference choice; approval evidence: user's reply `A` in this conversation. Final lock still depends on durable publication.
+- [x] Owner resolves D-0002 by choosing low-resolution collage crops as the canonical working reference (Option A).
 - [ ] Canonical original and 13 reference crops are stored in a durable, versioned location accessible to the project; verify binary SHA-256 against manifest.
 - [ ] If owner expects GitHub as source of truth, commit original and crop binaries and update `SCREEN_ID_REGISTRY.csv` from `NOT_IN_GITHUB` only after verification.
 - [ ] Confirm all registered crop IDs and names are correct against the actual source composite.
@@ -39,8 +40,8 @@
 
 ## Review request to owner
 
-**Approve KEW-REF-v1.0.0-rc1 as the visual baseline using the 13 extracted SRC-03 panels, subject to durable image publication; or supply high-resolution individual screens.** Approval of the *concept* alone does not satisfy the durable-image gate.
+**Owner response received:** `A` — use existing SRC-03 and extracted crops, with known resolution limits. No further choice between A/B is needed. Remaining action: publish original and 13 PNG binaries durably and verify checksums.
 
 ## Status conclusion
 
-This document is a **baseline lock proposal**, not a completed lock. No image files were changed. Do not mark task 01.08 `DONE` until the gates above are satisfied. Task register status: `NEEDS_REVIEW`.
+Owner has approved Option A, but this document is **not a completed baseline lock**: image binaries are still absent from GitHub and not verified in durable repository storage. Do not mark 01.08 `DONE` until publication and integrity gates are satisfied. Task register status: `BLOCKED`.
