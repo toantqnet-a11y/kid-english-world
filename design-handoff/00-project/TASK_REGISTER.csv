@@ -82,7 +82,7 @@ task_id,task_name,dependency,input,output,status,reviewer,evidence_path,complete
 "01.05","Generate reference checksums","01.04","Output of 01.04","design-handoff/01-reference/REFERENCE_CHECKSUMS.csv","DONE","AI","GitHub commit 947979a2c606d45234f995d3bb3a7a92dab7a245",""
 "01.06","Analyze source viewport","01.05","Output of 01.05","design-handoff/01-reference/TASK_01.06_VIEWPORT_ANALYSIS.md","DONE","AI","GitHub commit 065ed73d5967567627c429e3b77b80bf0bd2f194",""
 "01.07","Specify safe areas","01.06","Output of 01.06","design-handoff/01-reference/TASK_01.07_SAFE_AREAS.md","DONE","AI","GitHub commit 029eb72e0095e9e2897d282725bccc1e8c36b7a5",""
-"01.08","Lock reference baseline","01.07","Output of 01.07","design-handoff/01-reference/01.08.artifact","TODO","AI","",""
+"01.08","Lock reference baseline","01.07","Output of 01.07","design-handoff/01-reference/TASK_01.08_BASELINE_LOCK.md","NEEDS_REVIEW","AI","GitHub proposal commit 590bbd461013295642763829fff7f079fb71618a; awaiting owner approval and durable source binaries",""
 "03.01","Aggregate colors","02.S01.16","Output of 02.S01.16","design-handoff/02-design-system/03.01.artifact","TODO","AI","",""
 "03.02","Normalize colors","03.01","Output of 03.01","design-handoff/02-design-system/03.02.artifact","TODO","AI","",""
 "03.03","Assign semantic color tokens","03.02","Output of 03.02","design-handoff/02-design-system/03.03.artifact","TODO","AI","",""
